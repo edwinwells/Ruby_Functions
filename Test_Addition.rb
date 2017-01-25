@@ -4,6 +4,7 @@ require_relative "Addition.rb"
 class TestAddition < Minitest::Test
 	def test_1_plus_1_returns_2
 		assert_equal(2,add(1,1))
+		print ""	
 	end
 
 	def test_2_plus_3_returns_5
