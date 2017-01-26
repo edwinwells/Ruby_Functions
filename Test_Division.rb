@@ -9,4 +9,8 @@ class TestAddition < Minitest::Test
 	def test_100_divided_10_returns_10
 		assert_equal(10,divide(100,10))
 	end
+
+	def test_100_divided_10_divided_2_returns_5
+		assert_equal(5,divide(100,10,2))
+	end	
 end

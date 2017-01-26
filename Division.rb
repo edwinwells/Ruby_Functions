@@ -1,4 +1,9 @@
-def divide(num1,num2)
-	result=num1/num2
-	return result
+def divide(*numbers)
+	result=numbers[0]
+	numbers.delete_at(0)    
+	numbers.each do |n|
+	result /= n	
+end
+
+return result
 end
