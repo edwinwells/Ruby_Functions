@@ -1,4 +1,8 @@
-def multiply(num1,num2)
-	result=num1*num2
-	return result
+def multiply(*numbers)
+	result = 1
+	numbers.each do |n|
+	result *= n
+end
+
+return result
 end
