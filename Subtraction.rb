@@ -1,4 +1,7 @@
-def subtract(num1,num2)
-	result=num1-num2
-	return result
+def subtract(*numbers)
+	result = numbers[0] + numbers[0]
+	numbers.each do |n|
+	result -= n	
+end
+return result
 end

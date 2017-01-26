@@ -9,4 +9,9 @@ class TestSubtraction < Minitest::Test
 	def test_3_minus_2_returns_1
 		assert_equal(1,subtract(3,2))
 	end
+
+	def test_20_minus_2_minus_9_returns_9
+		assert_equal(9,subtract(20,2,9))
+	end
+
 end
